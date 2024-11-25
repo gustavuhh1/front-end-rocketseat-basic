@@ -51,9 +51,7 @@ body{
     margin: 64px 0px;
 }
 
-#mainContent {
-    
-} && h2 {
+#mainContent h2 {
     font-size: 32px;
     color: #1B1B1B;
 } && h3 {
