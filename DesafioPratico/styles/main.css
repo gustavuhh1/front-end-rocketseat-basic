@@ -31,9 +31,14 @@ main {
         article{
             width: 330px;
             background-color: var(--color-gray-300);
+            border: solid 2px var(--color-gray-300);
             border-radius: 12px;
             padding-inline: 12px;
             padding-block: 12px 17px;
+        }
+
+        article:hover{
+            border: solid 2px var(--color-gray-400);
         }
 
         img{
