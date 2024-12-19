@@ -25,7 +25,6 @@ label + .radio-wrapper {
     all: unset;
     position: absolute;
     inset: 0;
-    
   }
 
   .radio-image {
@@ -45,14 +44,13 @@ label + .radio-wrapper {
     & .radio-image {
       background-image: url(../../assets/icons/radio-hover.svg);
     }
-
-    &:has(:checked) {
-      border: 2px solid var(--stroke-highlight);
-
-      & .radio-image {
-        background-image: url(../../assets/icons/radio-checked.svg);
-      }
-    }
   }
 
+  &:has(:checked) {
+    border: 2px solid var(--stroke-highlight);
+
+    & .radio-image {
+      background-image: url(../../assets/icons/radio-checked.svg);
+    }
+  }
 }
